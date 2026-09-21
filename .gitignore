@@ -1,0 +1,69 @@
+# =============================================================================
+# Gitignore - Curso Java: Explora el lenguaje desde cero
+# =============================================================================
+
+# --- Transcripciones y Material en Bruto ---
+Transcripciones/
+transcripciones/
+*.txt
+!*.java
+!*.md
+
+# --- Agentes, Asistentes y Herramientas Locales ---
+.agents/
+.gemini/
+*.agent
+*.transcript
+
+# --- Java & Build Binaries ---
+*.class
+*.jar
+*.war
+*.ear
+out/
+bin/
+target/
+build/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin/
+
+# --- Eclipse ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# --- NetBeans ---
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# --- Visual Studio Code ---
+.vscode/
+
+# --- Sistema Operativo & Temporales ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- Logs y Crash Dumps ---
+*.log
+hs_err_pid*
+replay_pid*
