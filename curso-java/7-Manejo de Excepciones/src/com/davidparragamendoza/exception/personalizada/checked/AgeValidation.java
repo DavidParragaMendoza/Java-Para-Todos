@@ -1,4 +1,4 @@
-package com.davidparragamendoza.exception.personalizada;
+package com.davidparragamendoza.exception.personalizada.checked;
 
 public class AgeValidation {
     public static void main(String[] args){
