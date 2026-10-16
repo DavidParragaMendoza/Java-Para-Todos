@@ -1,3 +1,5 @@
+package com.davidparragamendoza.exception.basic;
+
 public class Main {
     public static void recursividad(){
         recursividad();
