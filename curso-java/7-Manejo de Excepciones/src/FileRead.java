@@ -4,16 +4,18 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileRead {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         BufferedReader reader = null;
         try {
-            reader= new BufferedReader(new FileReader("src/example.txt"));
+            System.out.println("Leyendo archivo...");
+            reader= new BufferedReader(new FileReader("./src/example.txt"));
 
             String line;
 
             while ((line = reader.readLine()) != null){
                 System.out.println(line);
             }
+
         } catch (FileNotFoundException e) {
             System.out.println("El archivo no existe.");
 
@@ -27,7 +29,7 @@ public class FileRead {
                     System.out.println("El archivo fue cerrado crrectamente");
                 }
             } catch (IOException e) {
-                System.out.println("Error al cerrar el archivo");;
+                System.out.println("Error al cerrar el archivo");
             }
         }
     }
